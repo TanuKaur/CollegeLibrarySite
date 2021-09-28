@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivefile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar h-nav">
+        <ul>
+            <li class="topic">My Library</li>
+            <li class="second-item v-class"><a href="#Home">Home</a></li>
+        </ul>
+        <div class="search v-class">
+            <input type="text" class="search" placeholder="Search" id="searchText">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="heading" id="first">My Library</h1>
+        <form action="" id="libraryform">
+            <div class="namesection">
+                <label for="Name">Name</label>
+                <input type="text" class="name" id="name" placeholder="Book Name">
+            </div>
+            <div class="author">
+                <label for="author">Author</label>
+                <input type="text" class="author" id="author" placeholder="Author">
+            </div>
+
+            <div class="radio">
+                <label for="booktype">Type</label>
+                <div class="rbtn">
+                    <div class="radiobuttons">
+                        <input type="radio" name="type" id="fiction" value="Fiction">
+                        <label for="fiction">Fiction</label>
+                    </div>
+                    <div class="radiobuttons">
+                        <input type="radio" name="type" id="cs" value="Computer Programming">
+                        <label for="cs">Computer Programming</label>
+                    </div>
+                    <div class="radiobuttons">
+                        <input type="radio" name="type" id="cooking" value="Cooking">
+                        <label for="cooking">Cooking</label>
+                    </div>
+
+                </div>
+            </div>
+            <button type="submit" class="add-btn btn-book" id="add-book">Add Book</button>
+        </form>
+    </div>
+        <div id="table">
+            <h1 class="heading">Your Books</h1>
+            <div id="myTable">
+            <table >
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Author</th>
+                        <th>Type</th>
+                    </tr>
+                <tbody id="tableBody">   
+                </tbody>
+                </thead>
+            </table>
+        </div>
+        </div>
+  
+    <script src="js1.js"></script>
+</body>
+
+</html>

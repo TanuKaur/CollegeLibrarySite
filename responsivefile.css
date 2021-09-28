@@ -1,0 +1,116 @@
+
+@media screen and (max-width:1016px){
+    table{
+        width: 90%;
+}
+th,td{
+    padding:10px 65px ;
+}
+}@media screen and (max-width:790px){
+    table{
+        width: 95%;
+}
+th,td{
+    padding:10px 35px ;
+}
+}
+@media screen and (max-width:560px){
+  
+         .search input{
+        width:60vw;
+        margin-left:12px;
+        padding:5px;
+    }
+  .namesection{
+      display: flex;
+      flex-direction: column;
+     
+  }
+  .navbar{
+      overflow: hidden;
+  }
+  .namesection input{
+      margin:10px 1px;
+      width: 80vw;    
+  }
+  .author{
+    display: flex;
+    flex-direction: column;
+}
+.author input{
+    margin:10px 1px;
+    width: 80vw;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+.rbtn{
+    margin-top: 9px;
+}
+.radiobuttons
+{
+    margin:3px ;
+}
+ .heading
+ {
+     font-size: 33px;
+ }
+    .line{
+        width:25px;
+        background-color: white;
+        height:3px;
+        margin:4px 3px;
+    }
+    table{
+        font-size: 17px;
+    }
+    th,td{
+        padding:9px 25px ;
+    }
+}
+@media screen and (max-width:380px){
+    th,td{
+        padding:9px 15px ;
+    }
+}
+
+@media screen and (max-width:330px){
+    .navbar ul li{
+        margin: 2px 10px;
+     }
+     .navbar ul li:nth-child(2){
+         margin-top: 6px;
+     }
+     .navbar ul li:first-child{
+         font-size: 20px;
+     }
+    table{
+        font-size: 16px;
+    }
+    th,td{
+        padding:8px 5px ;
+    }
+    .search{
+        flex-direction: column;
+    }
+    .search input{
+        padding:3px;
+        margin-left: 7px;
+    }
+    .search button{
+      margin-top: 0px;
+        margin-left: 6px;
+        padding:3px 2px;
+    }
+    .search input{
+        width:80vw;
+    }   
+    .navbar ul li:nth-child(2){
+        font-size: 16px;
+        margin-top: 4px;
+        font-size: 16px;;
+    }
+
+   
+}
